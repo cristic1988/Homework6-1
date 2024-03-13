@@ -7,7 +7,6 @@ public class LotteryProgram {
         Random random = new Random();
 
         int[] firmLotteryNum = new int[9];
-        int elementToSearch = random.nextInt(9);
         int[] guessPlayerNum = new int[9];
         for (int index = 0; index < firmLotteryNum.length; index++){
             firmLotteryNum[index] = random.nextInt(9);
