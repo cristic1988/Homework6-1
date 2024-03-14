@@ -18,7 +18,14 @@ public class LotteryProgram {
         System.out.println(Arrays.toString(firmLotteryNum));
         Arrays.sort(guessPlayerNum);
         System.out.println(Arrays.toString(guessPlayerNum));
-        System.out.println("Кількість збігів: " + 2);
+        if ( firmLotteryNum == guessPlayerNum) {
+
+
+
+            System.out.println("Кількість збігів: " +  );
+
+        }
+
 
 
 
